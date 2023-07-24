@@ -17,8 +17,14 @@
 As of now there linux kernels don't contain the ux5304va in `kernel_source_root/sound/pci/hda/patch_realtek.c ` so to make the patch work, you will have to compile the kernel yourself, the steps are:
 
 1. Pull the kernel sources
-2. Open `kernel_source_root/sound/pci/hda/patch_realtek.c` with your text editor and search for FIXUP*CS35L41* until you find a list of things like this: `SND_PCI_QUIRK(0x1043, 0x12af, "ASUS UX582ZS", ALC245_FIXUP_CS35L41_SPI_2)`
-3. On next line add ux5304va config: `SND_PCI_QUIRK(0x1043, 0x16d3, "ASUS UX5304VA", ALC245_FIXUP_CS35L41_SPI_2)`
+2. Open `kernel_source_root/sound/pci/hda/patch_realtek.c` with your text editor and search for FIXUP*CS35L41* until you find a list of things like this:
+   ```
+   SND_PCI_QUIRK(0x1043, 0x12af, "ASUS UX582ZS", ALC245_FIXUP_CS35L41_SPI_2)
+   ```
+3. On next line add ux5304va config:
+   ```
+   SND_PCI_QUIRK(0x1043, 0x16d3, "ASUS UX5304VA", ALC245_FIXUP_CS35L41_SPI_2)
+   ```
 4. Compile the kernel
 5. Install the kernel
 
