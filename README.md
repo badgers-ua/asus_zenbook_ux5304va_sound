@@ -28,7 +28,9 @@ As of now there linux kernels don't contain the ux5304va in `kernel_source_root/
 
 ### build the _ssdt-csc3551.dsl_
 
-`iasl -tc ssdt-csc3551.dsl`
+```
+iasl -tc ssdt-csc3551.dsl
+```
 
 ### copy it in /boot
 
