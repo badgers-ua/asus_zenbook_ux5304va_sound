@@ -14,7 +14,7 @@
 
 **Kernel**
 
-As of now there linux kernels don't contain the ux5304va in `kernel_source_root/sound/pci/hda/patch_realtek.c ` so to make the patch work, you will have to compile the kernel yourself, the steps are:
+As of now there linux kernels don't contain the ux5304va in `kernel_source_root/sound/pci/hda/patch_realtek.c` so to make the patch work, you will have to compile the kernel yourself, the steps are:
 
 1. Pull the kernel sources
 2. Open `kernel_source_root/sound/pci/hda/patch_realtek.c` with your text editor and search for FIXUP*CS35L41* until you find a list of things like this:
