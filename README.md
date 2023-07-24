@@ -32,22 +32,27 @@ As of now there linux kernels don't contain the ux5304va in `kernel_source_root/
 
 ### copy it in /boot
 
-`sudo cp -f ssdt-csc3551.aml /boot`
+```
+sudo cp -f ssdt-csc3551.aml /boot
+```
 
 ### copy grub script
 
 ```
-sudo cp -f 01_acpi /etc/grub.d
-sudo chmod +x /etc/grub.d/01_acpi
+sudo cp -f 01_acpi /etc/grub.d && sudo chmod +x /etc/grub.d/01_acpi
 ```
 
 ### update grub config
 
-`sudo update-grub`
+```
+sudo update-grub
+```
 
 ### shutdown the laptop
 
-`sudo shutdown -h now`
+```
+sudo shutdown -h now
+```
 
 ### Special thanks
 
