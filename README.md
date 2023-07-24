@@ -9,8 +9,8 @@
 **BIOS Configuration**
 
 - **BIOS Version:** 304
-- **Fast Boot** Disabled
-- **Secure Boot** Disabled
+- **Fast Boot:** Disabled
+- **Secure Boot:** Disabled
 
 **Kernel**
 
