@@ -1,7 +1,5 @@
 #!/bin/sh -e
 
-#sudo cp -f 01_acpi /etc/grub.d/01_acpi
-# Uncomment to load custom ACPI tables
 GRUB_CUSTOM_ACPI_DIR="/boot"
 
 # DON'T MODIFY ANYTHING BELOW THIS LINE!
