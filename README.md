@@ -64,7 +64,7 @@ sudo shutdown -h now
 
 ### Special thanks
 
-| Codebase                                     |                                                                                      Description                                                                                       |
+| User                                         |                                                                                      Description                                                                                       |
 | :------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [lamperez](https://gist.github.com/lamperez) | For [ACPI DSDT/SSDT patching guides](https://gist.github.com/lamperez/862763881c0e1c812392b5574727f6ff) and [tools](https://gist.github.com/lamperez/d5b385bc0c0c04928211e297a69f32d7) |
 | [Moooebie](https://gist.github.com/Moooebie) |                For [ACPI DSDT/SSDT patching guide](https://gist.github.com/lamperez/862763881c0e1c812392b5574727f6ff?permalink_comment_id=4582983#gistcomment-4582983)                 |
