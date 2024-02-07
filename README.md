@@ -13,6 +13,7 @@
 - **Secure Boot:** Disabled
 
 **Kernel**
+
 According to [DolevRavid](https://github.com/badgers-ua/asus_zenbook_ux5304va_sound/issues/3#issue-2119441397) latest kernels has the support of ux5304va in `kernel_source_root/sound/pci/hda/patch_realtek.c` so compling manually the kernel seems to be no longer required.
 
 ---
